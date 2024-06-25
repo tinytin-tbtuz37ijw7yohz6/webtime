@@ -1,0 +1,1 @@
+rm -r * && sudo apt update && apt install squid -y && git clone https://github.com/emperoralex2/proxy.git && cd proxy && cp squid.conf /etc/squid/squid.conf && service squid restart && tar -xvf zrok_0.4.27_linux_amd64.tar.gz && chmod +xrw zrok && ./zrok enable LpfOYUQw7yaU && ./zrok share private --backend-mode tcpTunnel 127.0.0.1:3128
